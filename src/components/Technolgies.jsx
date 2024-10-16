@@ -16,6 +16,18 @@ const iconVariants = (duration) => ({
         }
     }
 })
+const iconVariants1 = (duration) => ({
+    inital: {y: 10},
+    animate:{
+        y:[-10,10],
+        transition:{
+            duration:duration,
+            repeat:Infinity,
+            ease:'linear',
+            repeatType:'reverse'
+        }
+    }
+})
 const Technolgies = () => {
   return (
     <div className='pb-24'>
@@ -31,39 +43,39 @@ const Technolgies = () => {
             <motion.div
              initial = "inital"
              animate = "animate"
-             variants = {iconVariants(2.5)}>
+             variants = {iconVariants(1.5)}>
                
                 <FaHtml5 className='text-7xl text-orange-500'/>
             </motion.div>
             <motion.div
              initial = "inital"
              animate = "animate"
-             variants = {iconVariants(1.5)}>
+             variants = {iconVariants1(1.5)}>
                 <FaCss3Alt className='text-7xl text-blue-500'/>
                 </motion.div>
             <motion.div
              initial = "inital"
              animate = "animate"
-             variants = {iconVariants(2.5)}>
+             variants = {iconVariants(1.5)}>
                 <IoLogoJavascript className='text-7xl text-yellow-500'/>
                 </motion.div>
             <motion.div
              initial = "inital"
              animate = "animate"
-             variants = {iconVariants(1.5)}>
+             variants = {iconVariants1(1.5)}>
                 <RiTailwindCssFill className='text-7xl text-cyan-600'/>
                 </motion.div>
             <motion.div
              initial = "inital"
              animate = "animate"
-             variants = {iconVariants(2.5)}>
+             variants = {iconVariants(1.5)}>
                 <FaNodeJs className='text-7xl text-green-400'/>
                 </motion.div>
             
             <motion.div
              initial = "inital"
              animate = "animate"
-             variants = {iconVariants(1.5)}>
+             variants = {iconVariants1(1.5)}>
                 <RiReactjsLine className='text-7xl text-cyan-400'/>
             </motion.div>
         </motion.div>
