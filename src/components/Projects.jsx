@@ -30,7 +30,7 @@ const Projects = () => {
                     className='w-full max-w-xl lg:w-3/4'>
                        <h3 className='mb-2 font-semibold text-2xl'>{project.title}</h3>
                         <p className='mb-4 text-stone-400'>{project.description}</p>
-                        <a href="https://github.com/sanatan-dive/9otes">
+                        <a target='_blank' href="https://github.com/sanatan-dive/9otes">
                         <FaGithub className=' mb-5 mr-3 text-3xl text-stone-300'/>
                         </a>
                         {project.technologies.map((technology,index) => (
