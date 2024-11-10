@@ -8,7 +8,8 @@ import logo from '../assets/image.png';
 
 const Navbar = () => {
   return (
-    <nav className='  flex items-center justify-between py-10'> 
+    <section id='home'>
+    <nav className='flex items-center justify-between '> 
       <div className='flex  items-center'>
         <a href='/' aria-label='Home'>
           <img src={logo} alt='logo' className='mx-2 ' width={250} height={33} />
@@ -49,6 +50,7 @@ const Navbar = () => {
         </a>
       </div>
     </nav>
+    </section>
   );
 };
 

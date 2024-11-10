@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
+    <section id='contact'>
     <div className='border-t border-stone-900 pb-20'>
         <motion.h2 
             whileInView={{ opacity: 1, y: 0 }}
@@ -33,6 +34,7 @@ const Contact = () => {
             </motion.a>
         </div>
     </div>
+    </section>
   );
 }
 

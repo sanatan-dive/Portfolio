@@ -7,6 +7,7 @@ import project2 from "../assets/projects/project-2.webp";
 
 const Projects = () => {
   return (
+    <section id='projects'>
     <div className='pb-4'>
       <motion.h2 
         whileInView={{opacity:1,y:0}}
@@ -86,6 +87,7 @@ const Projects = () => {
         </motion.div>
       </div>
     </div>
+    </section>  
   );
 }
 

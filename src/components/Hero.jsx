@@ -25,6 +25,7 @@ const childVariants = {
 }
 const Hero = () => {
   return (
+    
 <div className='pb-4 lg:mb-36'>
 
    
@@ -56,6 +57,7 @@ const Hero = () => {
         </div>
     </div>
 </div>
+   
   )
 }
 

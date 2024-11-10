@@ -36,6 +36,7 @@ const iconVariants1 = (duration) => ({
 const Technologies = () => {
   
     return (
+        <section id='technologies'>
         <div className='flex flex-col items-center justify-center pb-24'>
             <motion.h2 
                 whileInView={{ opacity: 1, y: 0 }}
@@ -48,7 +49,7 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }} 
-                className='flex flex-wrap items-center justify-center gap-3'>
+                className='flex flex-wrap items-center justify-center gap-2'>
                     
                      <IconCloud iconSlugs={['html5', 'css3', 'javascript', 'react', 'tailwindcss','bootstrap', 'node-dot-js', 'mongodb', 'express', 'next-dot-js', 'typescript', 'c', 'cplusplus']} />
 
@@ -95,6 +96,7 @@ const Technologies = () => {
               
             </motion.div>
         </div>
+        </section>
     );
 }
 
