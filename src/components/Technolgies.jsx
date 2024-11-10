@@ -51,7 +51,7 @@ const Technologies = () => {
                 transition={{ duration: 1.5 }} 
                 className='flex flex-wrap items-center justify-center gap-2'>
                     
-                     <IconCloud iconSlugs={['html5', 'css3', 'javascript', 'react', 'tailwindcss','bootstrap', 'node-dot-js', 'mongodb', 'express', 'next-dot-js', 'typescript', 'c', 'cplusplus']} />
+                     <IconCloud iconSlugs={['html5', 'css3', 'javascript', 'react', 'tailwindcss','bootstrap','mysql', 'node-dot-js', 'mongodb', 'express', 'next-dot-js', 'typescript', 'c', 'cplusplus']} />
 
                 {/* <motion.div initial="initial" animate="animate" variants={iconVariants(1.5)}>
                     <SiC className='text-7xl text-blue-600' />
