@@ -11,7 +11,8 @@ function App() {
 
   return (
     <main  >
-      <Floating />
+       <Floating />
+      
     <div className='overflow-x text-stone-300 antialiased'> 
    
      <div className='fixed inset-0 -z-10 '>
@@ -31,7 +32,9 @@ function App() {
         <Projects />
         <Contact />
       </div>
+     
      </div>
+     
      </main>
      
   )
