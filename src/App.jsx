@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Technologies from './components/Technologies'; // Corrected import
+import Technologies from './components/Technolgies';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Floating from './components/ui/Floating';
