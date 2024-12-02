@@ -36,7 +36,7 @@ const iconVariants1 = (duration) => ({
 const Technologies = () => {
   
     return (
-        <section id='technologies z-50'>
+        <section id='technologies'>
         <div className='flex flex-col items-center justify-center pb-24 z-50'>
             <motion.h2 
                 whileInView={{ opacity: 1, y: 0 }}

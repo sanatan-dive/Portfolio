@@ -26,13 +26,14 @@ const FloatingNav = ({ navItems = [], className }) => {
             idx !== navItems.length - 1 ? "border-r border-neutral-300 dark:border-neutral-700 pr-3" : "pr-0"
           )}
         >
-          <span className="block sm:hidden">{navItem.icon}</span>
-          <span className="flex flex-wrap sm:block text-sm">
+          <div className="flex items-center justify-center">
+          <span className="flex flex-wrap  text-sm">
             {navItem.name}
           </span>
           <div
-  className="absolute bottom-0 left-0 right-0 w-full h-[2px] bg-gradient-to-r from-transparent via-blue-500 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+  className="absolute bottom-0 flex justify-center items-center  w-full h-[2px] bg-gradient-to-r from-transparent via-blue-500 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
 ></div>
+</div>
 
 
 

@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <section id='home'>
     <nav className='flex items-center justify-between '> 
-      <div className='flex  items-center'>
+      <div className='flex  items-center justify-center'>
         <a href='/' aria-label='Home'>
           <img src={logo} alt='logo' className='mx-2 ' width={250} height={33} />
         </a>
