@@ -44,10 +44,13 @@ const Projects = () => {
             <FaGithub />
           </a>
           <div className='mt-4 flex flex-wrap'>
-          <span className='mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>ReactJs</span>
+          <span className='mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>MongoDB</span>
+          <span className='mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>ExpressJs</span>
+          <span className='mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>NodeJs</span>
+          <span className='mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>ReactJs</span>        
           <span className='mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>Tailwind</span>
           <span className='mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>Framer-Motion</span>
-          {/* <span className='mr-3 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>NextJS</span> */}
+
           </div>
         </motion.div>
       </div>
