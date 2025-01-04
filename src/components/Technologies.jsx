@@ -7,6 +7,7 @@ import { SiExpress, SiNextdotjs, SiTypescript, SiC, SiCplusplus } from 'react-ic
 import { color, motion } from 'framer-motion';
 import { IconCloud } from './ui/Cloud';
 
+
 const iconVariants = (duration) => ({
     initial: { y: -10 },
     animate: {
@@ -34,6 +35,8 @@ const iconVariants1 = (duration) => ({
 });
 
 const Technologies = () => {
+
+    const slugs = ['html5', 'css3', 'javascript', 'react', 'tailwindcss','bootstrap','mysql', 'node-dot-js', 'mongodb', 'express', 'next-dot-js', 'typescript', 'c', 'cplusplus','postgresql','prisma']
   
     return (
         <section id='technologies'>
@@ -49,9 +52,9 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }} 
-                className='flex flex-wrap items-center justify-center gap-2'>
+                className='flex flex-wrap text-white items-center bg-background overflow-hidden justify-center gap-2'>
                     
-                     <IconCloud iconSlugs={['html5', 'css3', 'javascript', 'react', 'tailwindcss','bootstrap','mysql', 'node-dot-js', 'mongodb', 'express', 'next-dot-js', 'typescript', 'c', 'cplusplus','postgresql','prisma']} />
+                     <IconCloud iconSlugs={slugs} />
 
                 {/* <motion.div initial="initial" animate="animate" variants={iconVariants(1.5)}>
                     <SiC className='text-7xl text-blue-600' />
