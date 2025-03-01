@@ -36,7 +36,7 @@ const iconVariants1 = (duration) => ({
 
 const Technologies = () => {
 
-    const slugs = ['html5', 'css3', 'javascript', 'react', 'tailwindcss','bootstrap','mysql', 'node-dot-js', 'mongodb', 'express', 'next-dot-js', 'typescript', 'c', 'cplusplus','postgresql','prisma']
+    const slugs = ['html5', 'css3', 'javascript', 'react', 'tailwindcss','bootstrap','mysql', 'node-dot-js', 'mongodb', 'express', 'next-dot-js', 'typescript', 'c', 'cplusplus','postgresql','prisma','docker','linux','redis']
   
     return (
         <section id='technologies'>

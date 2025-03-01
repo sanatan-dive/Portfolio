@@ -14,25 +14,23 @@ const Contact = () => {
             className='my-10 text-center text-4xl'>
             Get in Touch
         </motion.h2>
-        <div className='text-center tracking-tighter'>
-            {/* Uncomment and update these lines if needed
-            <p className='my-4'>
-                {CONTACT.address}
-            </p>
-            <p className='my-4'>
-                {CONTACT.phoneNo}
-            </p> */}
-            <motion.a
-                whileInView={{ opacity: 1, x: 0 }}
-                initial={{ opacity: 0, x: -100 }}
-                transition={{ duration: 0.5 }}
-                className='my-4 inline-flex items-center'
-                href="mailto:sanatansharma350@gmail.com"
-                target='_blank'>
-                <CiMail className='text-4xl inline mx-2' />
-                {CONTACT.email} {/* Ensure CONTACT.email is defined */}
-            </motion.a>
+        <div className='text-center'>
+    <motion.a
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 0.5 }}
+        className='my-4 inline-flex items-center hover:underline'
+        href="mailto:sanatansharma350@gmail.com"
+        target='_blank'
+    >
+        <div className='hover:scale-105 transition-transform'>
+        <CiMail className='text-4xl inline mx-2 transition-transform duration-300 ' />
+        {CONTACT.email} {/* Ensure CONTACT.email is defined */}
         </div>
+    </motion.a>
+</div>
+
+        
     </div>
     </section>
   );
