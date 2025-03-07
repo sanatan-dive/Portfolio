@@ -65,7 +65,7 @@ const Projects = () => {
             </a>
             <a 
               className='text-2xl transition-transform duration-300 hover:scale-110 hover:text-stone-300'  
-              href='#' 
+              href='https://github.com/sanatan-dive/Hackathon-Club-Website' 
               target='_blank'
               title="View Live Site"
             >
@@ -174,7 +174,7 @@ const Projects = () => {
           <div className="flex space-x-4 items-center">
             <a 
               className='text-2xl transition-transform duration-300 hover:scale-110 hover:text-stone-300'  
-              href='https://twibble-alpha.vercel.app/' 
+              href='https://github.com/sanatan-dive/xchatbot' 
               target='_blank'
               title="View Code"
             >

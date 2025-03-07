@@ -9,5 +9,5 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const CONTACT = {
  
-  email: "sanatansharma350@gmail.com",
+  email: "sanatansharma352@gmail.com",
 };
