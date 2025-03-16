@@ -1,3 +1,4 @@
+//eslint-disable-next-line
 import React from 'react';
 import { CiMail } from "react-icons/ci";
 import { CONTACT } from '../constants';

@@ -1,3 +1,4 @@
+//eslint-disable-next-line
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from "react-icons/fa6";
