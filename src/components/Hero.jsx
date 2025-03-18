@@ -1,8 +1,10 @@
+//eslint-disable-next-line
 import React from 'react'
+
 import profilePic from '../assets/profile.jpg'
 import {HERO_CONTENT} from '../constants'
 
-import {motion, stagger} from "framer-motion"
+import {motion} from "framer-motion"
 
 const containerVariants = {
     hidden:{

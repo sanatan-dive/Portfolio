@@ -1,6 +1,6 @@
 //eslint-disable-next-line
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFileAlt } from 'react-icons/fa'; // Added FaFileAlt for resume
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 
@@ -11,6 +11,7 @@ const Navbar = () => {
     <section id='home'>
       <nav className='flex items-center justify-between'> 
         <div className='flex items-center justify-center'>
+          
           <a href='/' aria-label='Home'>
             <img 
               src={logo} 
@@ -22,6 +23,15 @@ const Navbar = () => {
           </a>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+        <a
+            href="https://drive.google.com/file/d/1gCa2hu8ffMFMatIO_-ziHae3NVEU9oUc/view?usp=sharing" 
+            target='_blank'
+            rel="noopener noreferrer"
+            aria-label='Resume'
+            className='transition-transform duration-300 hover:scale-110 hover:text-green-500' 
+          >
+            <FaFileAlt /> {/* Resume icon */}
+          </a>
           <a
             href="https://www.linkedin.com/in/sanatan-sharma-637605266/"
             target='_blank'
@@ -58,6 +68,7 @@ const Navbar = () => {
           >
             <FaSquareXTwitter />
           </a>
+       
         </div>
       </nav>
     </section>
