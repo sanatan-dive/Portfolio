@@ -155,7 +155,7 @@ const Projects = () => {
     transition={{ duration: 1 }}
     className='w-full md:w-2/5 lg:w-1/3 mb-8 md:mb-0'
 >
-    <a href='https://github.com/sanatan-dive/Hackathon-Club-Website' target='_blank' className="block relative group">
+    <a href='https://hackathon-club-frontend.vercel.app/home' target='_blank' className="block relative group">
         <div className="overflow-hidden rounded-xl">
             <img 
                 src={project3} 
@@ -176,7 +176,7 @@ const Projects = () => {
           initial={{opacity:0,x:100}}
           transition={{duration:1}}
           className='w-full md:w-3/5 lg:w-2/3 md:pl-8'>
-          <a href='https://github.com/sanatan-dive/Hackathon-Club-Website' className="group inline-flex items-center" target='_blank'>
+          <a href='https://hackathon-club-frontend.vercel.app/home' className="group inline-flex items-center" target='_blank'>
             <h3 className='mb-2 font-semibold text-2xl group-hover:text-stone-300  transition-colors duration-300'>Hackathon Club Website</h3>
             <FaUpRightFromSquare  className="ml-2 text-sm opacity-0 group-hover:opacity-100 transition-all duration-300" />
           </a>
@@ -194,7 +194,7 @@ const Projects = () => {
             </a>
             <a 
               className='text-2xl transition-transform duration-300 hover:scale-110 hover:text-stone-300'  
-              href='https://github.com/sanatan-dive/Hackathon-Club-Website' 
+              href='https://hackathon-club-frontend.vercel.app/home' 
               target='_blank'
               title="View Live Site"
             >
