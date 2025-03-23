@@ -39,7 +39,7 @@ const Hero = () => {
             height={650}
             initial={{x:100,opacity:0}}
             animate={{x:0,opacity:1}}
-            transition={{duration:1,delay:1.5}}/>
+            transition={{duration:1,delay:1}}/>
             </div>
         </div>
         <div className='w-full lg:w-1/2'>
