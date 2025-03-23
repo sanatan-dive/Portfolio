@@ -94,7 +94,7 @@ const Projects = () => {
           initial={{opacity:0,x:-100}}
           transition={{duration:1}}
           className='w-full md:w-2/5 lg:w-1/3 mb-8 md:mb-0'>
-            <a href='https://github.com/sanatan-dive/learnify'target='_blank' className="block relative group">
+            <a href='https://drive.google.com/file/d/1BcwIWMqF_JLxzu_MP2X9FZN4zvnJHMX7/view?usp=sharing'target='_blank' className="block relative group">
               <div className="overflow-hidden rounded-xl">
                 <img 
                   src={project1} 
@@ -112,7 +112,7 @@ const Projects = () => {
           initial={{opacity:0,x:100}}
           transition={{duration:1}}
           className='w-full md:w-3/5 lg:w-2/3 md:pl-8'>
-          <a href='https://github.com/sanatan-dive/learnify'  target='_blank' className="group inline-flex items-center">
+          <a href='https://drive.google.com/file/d/1BcwIWMqF_JLxzu_MP2X9FZN4zvnJHMX7/view?usp=sharing'  target='_blank' className="group inline-flex items-center">
             <h3 className='mb-2 font-semibold text-2xl group-hover:text-stone-300 transition-colors duration-300'>Learnify</h3>
             <FaUpRightFromSquare  className="ml-2 text-sm opacity-0 group-hover:opacity-100 transition-all duration-300" />
           </a>
