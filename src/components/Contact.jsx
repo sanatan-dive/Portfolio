@@ -21,7 +21,7 @@ const Contact = () => {
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 0.5 }}
         className='my-4 inline-flex items-center hover:underline'
-        href="mailto:sanatansharma350@gmail.com"
+        href="mailto:sanatansharma352@gmail.com"
         target='_blank'
     >
         <div className='hover:scale-105 transition-transform'>
